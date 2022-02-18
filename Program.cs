@@ -37,7 +37,7 @@ namespace NedraTriangle
             }
             return result;
         }
-        //Рекурсивный спуск по матрице Triangle, начиная с элемента [rowPosition][colPosition]. Находит 
+        //Рекурсивный спуск по матрице Triangle, начиная с элемента [rowPosition][colPosition]. Находит максимальную сумму по пути сверху вниз
         static int findMax(int[][] Triangle, int rowPosition, int colPosition)
         {
             if (rowPosition + 1 == Triangle.Length) //если данный элемент находится в нижнем ряду
